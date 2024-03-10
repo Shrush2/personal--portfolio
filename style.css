@@ -1,0 +1,236 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body{
+    color: white;
+    font-family:'poppins',sans-serif;
+}
+main{
+    height: 70%;
+    background-color: rgb(38, 38, 85);
+
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 800px; /* Adjust as needed */
+    margin-top: 0;
+
+}
+
+.about-img {
+    flex: 0 0 auto;
+    margin-right: 20px;   /*Adjust spacing between image and text*/
+     border-radius: 50%;
+     margin-left: 30px;
+     align-content: flex-end;
+   
+     
+     
+}
+
+.about-text {
+    flex: 1;
+
+}
+
+#navbar{
+background-color: rgb(107, 125, 158);
+height:40px;
+border: 2px solid darkblue;
+
+}
+nav{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+ nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 15px;
+}
+.firstsection{
+   display: flex;
+   justify-content: space-around;
+   margin: 110px;
+   align-items: center;
+}
+.leftsection{
+    font-size:2rem;
+    width: 80%;
+}
+.rightsection img{
+    width: 50%;
+}
+.purple{
+    color: blueviolet;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white
+}
+nav ul li a:hover{
+    color:rgb(110, 62, 164);
+    font-size: 1.2rem;
+
+}
+#element{
+    color:cyan;
+}
+.icons{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    size: 30px; 
+   
+}
+
+main hr{
+    border: 0;
+    background:rgb(125, 125, 188);
+    height: 1.2px;
+    margin:40px 84px;
+}
+.secondsection{
+    max-width: 100%;
+}
+.secondsection h1{
+    font-size:1.9rem ;
+}
+.task{
+    color: rgb(174, 164, 164);
+    font-size: 1rem;
+    margin-left:55% ;
+}
+.head{
+    margin-left: 55%;
+    color: aquamarine;
+    
+}
+ footer{
+    background-color: rgb(43, 35, 108);
+}
+.footer{
+    display: flex;
+    margin: 123px 122px;
+    justify-content: space-evenly;
+    height: 60%;
+} 
+
+
+button{
+    background-color: darkmagenta;
+    color: azure;
+    margin-top: 35px;
+    width: 30%;
+    height: 30px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+button:hover{
+    background-color:rgb(144, 196, 39);
+    color: black;
+    transition-duration: 5s;
+    transition: step-start ;
+    transition-delay: 2s;
+    
+}
+.red{
+    color: rgb(34, 205, 221);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.about{
+    width: 60%;
+    margin-left: 35%;
+    display: flex;
+
+}
+.footer-first{
+    background-color: rgb(51, 43, 107);
+}
+.footer-first ul {
+    margin-left: 15%;
+    font-family: Arial, Helvetica;
+    font-size: medium;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+
+}
+.hold{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-left: 5px;
+    color: rgb(224, 214, 112);
+    
+
+}
+.box{
+    background-color: rgb(163, 207, 105);
+    height: 40%;
+    width: 30%;
+    display: flex;
+    
+    
+}
+.box1{
+    background-color: rgb(163, 207, 105);
+    height: 40%;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.box2{
+    background-color: rgb(163, 207, 105);
+    height: 40%;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.pro{
+    color: #dcc8ac;
+    background-color:rgb(51,43,107) ;
+
+     
+}
+
+.images{
+    background-image: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.port{
+display: flex;
+padding-bottom: 20px;
+}
+.footer-third{
+    margin-left: 35%;
+    padding-top: 30px;
+
+}
+.connect{
+    width: 60%;
+
+}
